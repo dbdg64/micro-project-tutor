@@ -23,7 +23,15 @@ A skill for Claude that turns it into a hands-on coding tutor. It never asks "wh
 
 ## Install
 
-### Claude Code
+### One command (recommended)
+
+```bash
+npx skills add dbdg64/micro-project-tutor -g
+```
+
+Needs Node.js and Git installed. The `-g` flag installs it globally so it works in every project.
+
+### Manual install (Claude Code)
 
 ```bash
 git clone https://github.com/dbdg64/micro-project-tutor.git
